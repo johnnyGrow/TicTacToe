@@ -75,8 +75,8 @@ public static void computerMove()
 	int col=0;
 	 row=0;
 	 col=0;
-	int randomRow=(int)(Math.random()*3)+1;
-	int randomCol=(int)(Math.random()*3)+1;
+	int randomRow=(int)(Math.random()*3);
+	int randomCol=(int)(Math.random()*3);
 	row=randomRow;
 	col=randomCol;
 	if(board[row][col]==" ")
